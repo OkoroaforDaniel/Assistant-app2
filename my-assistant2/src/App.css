@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App{
+  background-color: whitesmoke;
+  width: 700px;
+  height: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(7, 7, 7, 0.3);
+}
+.Ronaldo{
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+  /* color: gray; */
+}
+.Messi{
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+}
+.neymar{
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+}
+.Coasta{
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+}
+.Halland{
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+}
+.Mane{
+  /* margin-right: 30px; */
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(240, 195, 240);
+  box-shadow: 0 0 10px rgba(66, 65, 65, 0.3);
+  border-radius: 10px;
+  width: 80px;
+  /* font-weight: 500; */
+}
+.Mane:hover, .Halland:hover, .Coasta:hover, .neymar:hover, .Messi:hover, .Ronaldo:hover{
+  background-color: white;
+}
+.myApp{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 100vh; 
+}
+.VideoContainer {
+  position: absolute;
+  transition: all 0.3s ease; /* Add a smooth transition for video movement */
+}
+.image{
+  width: 100px;
+  height: 100px;
+}
