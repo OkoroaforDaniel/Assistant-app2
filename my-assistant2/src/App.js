@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import Rona from "./Images/Ronaldo1.png"
+// import Rona from "./Images/Ronaldo1.png"
 import './App.css';
+import Lottie from 'react-lottie';
+import data from "./animation_lnacvjgd.json";
+// import Assistant from './Components/Assistant/Assistant';
 
 function App() {
 
@@ -8,6 +11,14 @@ function App() {
 
   const moveVideoTo = (position) => {
     setVideoPosition(position);
+  };
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: data,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
   };
 
   return (
@@ -30,6 +41,11 @@ function App() {
             {/* <img className="image" src={Rona} alt='image' />
             <p>hi</p> */}
           {/* </video> */}
+          <div>
+            <Lottie options={defaultOptions}
+              height={100}
+              width={100} />
+            </div>
         </div>
 
       </div>
