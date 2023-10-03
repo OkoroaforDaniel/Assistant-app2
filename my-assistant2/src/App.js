@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-// import Rona from "./Images/Ronaldo1.png"
 import './App.css';
 import Lottie from 'react-lottie';
 import data from "./animation_lnacvjgd.json";
-// import Assistant from './Components/Assistant/Assistant';
 
 function App() {
 
@@ -43,8 +41,8 @@ function App() {
           {/* </video> */}
           <div>
             <Lottie options={defaultOptions}
-              height={100}
-              width={100} />
+              height={80}
+              width={80} />
             </div>
         </div>
 
